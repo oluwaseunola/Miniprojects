@@ -15,6 +15,12 @@
 		29B145D82628B34900B64133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B145D62628B34900B64133 /* LaunchScreen.storyboard */; };
 		29B145E32628B34900B64133 /* SeunAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B145E22628B34900B64133 /* SeunAppTests.swift */; };
 		29B145EE2628B34900B64133 /* SeunAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B145ED2628B34900B64133 /* SeunAppUITests.swift */; };
+		29B146092628CCB900B64133 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29B146082628CCB900B64133 /* IndieFlower-Regular.ttf */; };
+		29B1460A2628CCB900B64133 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29B146082628CCB900B64133 /* IndieFlower-Regular.ttf */; };
+		29B1460B2628CCB900B64133 /* IndieFlower-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29B146082628CCB900B64133 /* IndieFlower-Regular.ttf */; };
+		29B146B92629FEE400B64133 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B146B82629FEE400B64133 /* BrowserView.swift */; };
+		29B146BA2629FEE400B64133 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B146B82629FEE400B64133 /* BrowserView.swift */; };
+		29B146BB2629FEE400B64133 /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B146B82629FEE400B64133 /* BrowserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,8 @@
 		29B145E92628B34900B64133 /* SeunAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeunAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B145ED2628B34900B64133 /* SeunAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeunAppUITests.swift; sourceTree = "<group>"; };
 		29B145EF2628B34900B64133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B146082628CCB900B64133 /* IndieFlower-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IndieFlower-Regular.ttf"; path = "../../../../../../Downloads/Indie_Flower/IndieFlower-Regular.ttf"; sourceTree = "<group>"; };
+		29B146B82629FEE400B64133 /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,10 @@
 		29B145CA2628B34800B64133 /* SeunApp */ = {
 			isa = PBXGroup;
 			children = (
+				29B145FE2628B7C500B64133 /* Font */,
 				29B145CB2628B34800B64133 /* AppDelegate.swift */,
 				29B145CD2628B34800B64133 /* SceneDelegate.swift */,
-				29B145CF2628B34800B64133 /* ContentView.swift */,
+				29B146AA2629FEAA00B64133 /* Views */,
 				29B145D12628B34900B64133 /* Assets.xcassets */,
 				29B145D62628B34900B64133 /* LaunchScreen.storyboard */,
 				29B145D92628B34900B64133 /* Info.plist */,
@@ -134,6 +143,23 @@
 				29B145EF2628B34900B64133 /* Info.plist */,
 			);
 			path = SeunAppUITests;
+			sourceTree = "<group>";
+		};
+		29B145FE2628B7C500B64133 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				29B146082628CCB900B64133 /* IndieFlower-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		29B146AA2629FEAA00B64133 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29B145CF2628B34800B64133 /* ContentView.swift */,
+				29B146B82629FEE400B64133 /* BrowserView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +267,7 @@
 			files = (
 				29B145D82628B34900B64133 /* LaunchScreen.storyboard in Resources */,
 				29B145D52628B34900B64133 /* Preview Assets.xcassets in Resources */,
+				29B146092628CCB900B64133 /* IndieFlower-Regular.ttf in Resources */,
 				29B145D22628B34900B64133 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B1460A2628CCB900B64133 /* IndieFlower-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B1460B2628CCB900B64133 /* IndieFlower-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +298,7 @@
 				29B145CC2628B34800B64133 /* AppDelegate.swift in Sources */,
 				29B145CE2628B34800B64133 /* SceneDelegate.swift in Sources */,
 				29B145D02628B34800B64133 /* ContentView.swift in Sources */,
+				29B146B92629FEE400B64133 /* BrowserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B145E32628B34900B64133 /* SeunAppTests.swift in Sources */,
+				29B146BA2629FEE400B64133 /* BrowserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29B145EE2628B34900B64133 /* SeunAppUITests.swift in Sources */,
+				29B146BB2629FEE400B64133 /* BrowserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
